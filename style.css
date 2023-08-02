@@ -1,53 +1,61 @@
 /* Google Font*/
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
-body{
+body {
     font-family: 'Red Hat Display', sans-serif;
     margin: 0;
     padding: 0;
     border-radius: 10px;
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 98%);
 }
-.text-container{
+
+.text-container {
     padding: 2rem;
 }
 
 
-.card{
+.card {
     max-width: 450px;
     text-align: center;
     margin: 20px auto;
-    box-shadow: 0px 10px 2px grey;
+    background-color: #fff;
 }
 
-.hero-image{
-    border-radius:20px 20px 0px 0px ;
+.hero-image {
+    border-radius: 20px 20px 0px 0px;
 
 }
 
-h1{
+h1 {
     color: hsl(223, 47%, 23%)
 }
 
-.price{
+.price {
     text-align: left;
 }
 
 p {
-    color:hsl(224, 23%, 55%);
+    color: hsl(224, 23%, 55%);
     font-size: 16px;
     text-align: center;
 }
 
-.plan{
+.plan {
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
     height: 100px;
     background-color: hsl(225, 100%, 98%);
     border-radius: 10px;
 }
 
-.flex-item{
+.plan a:hover {
+    text-decoration: none;
+}
+
+.flex-item {
     margin-right: 1rem;
 }
 
@@ -55,30 +63,68 @@ p {
 
 .flex-item p {
     margin: 0;
-    font-weight:500;
+    font-weight: 500;
 }
 
 
 
-.button{
+.button {
     width: 100%;
     margin: 25px auto;
-    padding:.75rem ;
+    padding: .75rem;
     color: #fff;
     background-color: hsl(245, 75%, 52%);
     border-radius: 10px;
     box-shadow: 1px 5px 19px 2px hsl(224, 23%, 55%);
     border: none
 }
+
+.button:hover {
+    filter: hue-rotate();
+    filter: opacity(.9);
+}
+
 .button a {
     color: #fff;
     text-decoration: none;
     font-weight: 700;
 }
 
-.cancel a{
+.cancel a {
     text-decoration: none;
-    color:hsl(224, 23%, 55%);
+    color: hsl(224, 23%, 55%);
     font-weight: 700;
+
+}
+
+.cancel a:hover {
+    color: black;
+}
+
+/*responsive design for mobile*/
+
+@media (max-width:600px) {
+    .text-container{
+        padding: 1rem;
+    }
+    .card {
+        width: 300px;
+
+    }
+
+    .hero-image {
+        width: 300px;
+    }
+
+    h2 {
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .flex-item {
+        margin-right: .84rem;
+    }
+
+
 
 }
