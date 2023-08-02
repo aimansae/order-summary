@@ -1,0 +1,87 @@
+/* Google Font*/
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+}
+.text-container{
+    padding: 2rem;
+}
+
+
+.card{
+    max-width: 450px;
+    text-align: center;
+    margin: 20px auto;
+    box-shadow: 0px 10px 2px grey;
+}
+
+.hero-image{
+    border-radius:20px 20px 0px 0px ;
+
+}
+
+h1{
+    color: hsl(223, 47%, 23%)
+}
+
+.price{
+    text-align: left;
+}
+
+p {
+    color:hsl(224, 23%, 55%);
+    font-size: 16px;
+    text-align: center;
+}
+
+.plan{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 100px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+}
+
+.flex-item{
+    margin-right: 1rem;
+}
+
+.plan h2{
+    /*margin-right: 3em;*/}
+
+.flex-item p {
+    margin: 0;
+    font-weight:500;
+}
+
+.music-image{
+}
+
+
+.button{
+    width: 100%;
+    margin: 25px auto;
+    padding:.75rem ;
+    color: #fff;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    box-shadow: 1px 5px 19px 2px hsl(224, 23%, 55%);
+    border: none
+}
+.button a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.cancel a{
+    text-decoration: none;
+    color:hsl(224, 23%, 55%);
+    font-weight: 700;
+
+}
