@@ -26,5 +26,5 @@ As required, users are be able to:
 
 The project is deployed with [Netlify](https://www.netlify.com/)
 
-Please find the liver version [here](https://scintillating-mochi-ca9b9e.netlify.app/)
+Please find the liver version [here](https://asmusic-order-summary.netlify.app/)
 
