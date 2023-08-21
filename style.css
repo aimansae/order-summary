@@ -1,6 +1,10 @@
 /* Google Font*/
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: 'Red Hat Display', sans-serif;
     margin: 0;
@@ -8,19 +12,23 @@ body {
     border-radius: 10px;
     background-image: url(/images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
-    background-color: hsl(225, 100%, 98%);
+    background-color: hsl(225, 100%, 94%);
+    background-position: center top;
 }
 
+
 .text-container {
-    padding: 2rem;
+    padding: 3rem;
 }
 
 
 .card {
     max-width: 450px;
     text-align: center;
-    margin: 20px auto;
+    margin: 6rem auto;
     background-color: #fff;
+    border-radius: 20px;
+
 }
 
 .hero-image {
@@ -29,7 +37,9 @@ body {
 }
 
 h1 {
-    color: hsl(223, 47%, 23%)
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+
 }
 
 .price {
@@ -40,12 +50,14 @@ p {
     color: hsl(224, 23%, 55%);
     font-size: 16px;
     text-align: center;
+    margin: 1rem 0;
 }
 
 .plan {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 0 1rem;
     height: 100px;
     background-color: hsl(225, 100%, 98%);
     border-radius: 10px;
@@ -69,14 +81,16 @@ p {
 
 
 .button {
+    font-family: 'Red Hat Display', sans-serif;
     width: 100%;
-    margin: 25px auto;
+    font-size: 16px;
+    margin: 2rem 0;
     padding: .75rem;
     color: #fff;
     background-color: hsl(245, 75%, 52%);
     border-radius: 10px;
     box-shadow: 1px 5px 19px 2px hsl(224, 23%, 55%);
-    border: none
+    border: none;
 }
 
 .button:hover {
@@ -109,6 +123,7 @@ p {
     }
     .card {
         width: 300px;
+        margin: 3rem auto;
 
     }
 
@@ -123,6 +138,9 @@ p {
 
     .flex-item {
         margin-right: .84rem;
+    }
+    .cancel-section{
+        margin-bottom: 1rem;
     }
 
 
